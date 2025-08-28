@@ -8,7 +8,6 @@ version.workspace = true
 [dependencies]
 
 [workspace]
-members = ["crates/abi"]
 resolver = "3"
 
 [workspace.dependencies]
