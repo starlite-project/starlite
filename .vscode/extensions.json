@@ -1,0 +1,10 @@
+{
+    "recommendations": [
+        "ryanluker.vscode-coverage-gutters",
+        "rust-lang.rust-analyzer",
+        "fill-labs.dependi",
+        "digitalghost.vscode-isle",
+        "attilabuti.brainfuck-syntax",
+        "gregoire.cranelift"
+    ]
+}
