@@ -1,0 +1,18 @@
+cpp_compat = true
+language = "C"
+
+include_guard = "STARLITE_ABI_H_"
+include_version = false
+no_includes = true
+sys_includes = ["stdint.h"]
+
+line_length = 100
+tab_width = 4
+
+[export]
+include = ["AssemblyInfo", "StructInfo"]
+prefix = "Starlite"
+renaming_overrides_prefixing = true
+
+[export.rename]
+"ABI_VERSION" = "STARLITE_ABI_VERSION"
